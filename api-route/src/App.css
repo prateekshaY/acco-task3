@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+.home-text{
+  text-align: center;
+  margin-top: 100px;
+}
+.detail-text{
+  padding: 0 50px 0 50px;
+}
+.main-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.main-container .main-card{
+  background-color: white;
+  box-shadow: 1px -1px 10px 10px #fdf8f8;
+  margin: 15px;
+  width: 287px;
+  height: 250px;
+}
+.main-card a{
+  text-decoration: none;
+}
+.main-card .card-body .card-title{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+          line-clamp: 2; 
+  -webkit-box-orient: vertical;
+  color: black;
+}
+.main-card .card-body p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6; /* number of lines to show */
+          line-clamp: 2; 
+  -webkit-box-orient: vertical;
+  color: #787878;
+}
+.navbar{
+  background-color: #0080ff!important;
+
+}
+.navbar .nav-link{
+  color: white;
+}
+
