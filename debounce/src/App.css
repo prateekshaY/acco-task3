@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.addbtn{
+    width: 50px;
+    background: blue;
+    color: white;
+    border: 2px solid blue;
+   
+}
+list-wrapper{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-block{
+
+  margin-top: 15px;
+
+}
+
+.filter-list {
+  margin-top: 12px;
+}
